@@ -130,4 +130,4 @@ elapsed = round(end - start, 2)
 
 print("Time taken: " + str(elapsed) + " seconds")
 
-#driver.quit()
+driver.quit()
