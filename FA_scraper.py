@@ -18,7 +18,7 @@ record_count = 0
 counter = 1
 
 options = webdriver.ChromeOptions()
-#options.headless = True
+options.headless = True
 options.add_argument("--window-size=1920,1200")
 options.add_experimental_option("detach", True)
 
